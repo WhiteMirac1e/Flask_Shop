@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac652d73-a83e-45d0-ade4-07ced0fba8f6" name="Changes" comment="third commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/seminar/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/seminar/templates/register.html" afterDir="false" />
-    </list>
+    <list default="true" id="ac652d73-a83e-45d0-ade4-07ced0fba8f6" name="Changes" comment="fourth commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,11 +116,20 @@
       <option name="project" value="LOCAL" />
       <updated>1716195042748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fourth commit">
+      <option name="closed" value="true" />
+      <created>1716207754126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716207754126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="fourth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
   </component>
 </project>

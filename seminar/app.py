@@ -51,11 +51,9 @@ def register():
     return render_template('register.html')
 
 
-@app.route('/hello/<username>', methods=['GET', 'POST'])
+@app.route('/hello/<username>')
 def hello(username):
     context = {'username': username}
-    if request.method == 'POST':
-        print('Hello:Post')
     return render_template('hello.html', **context)
 
 
