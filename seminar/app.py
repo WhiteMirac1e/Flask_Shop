@@ -45,11 +45,25 @@ def register():
     if request.method == 'POST':
         username = request.form.get('username')
         context = {'username': username}
-        response = make_response(render_template('hello.html', **context))
+        response = redirect(url_for('hello', **context))
         response.set_cookie('username', username)
         return response
-        # return f'Hello {username}!'
     return render_template('register.html')
+
+
+@app.route('/hello/<username>', methods=['GET', 'POST'])
+def hello(username):
+    context = {'username': username}
+    if request.method == 'POST':
+        print('Hello:Post')
+    return render_template('hello.html', **context)
+
+
+@app.route("/logout")
+def logout():
+    response = make_response(redirect("/register"))
+    response.delete_cookie('username')
+    return response
 
 
 if __name__ == '__main__':
