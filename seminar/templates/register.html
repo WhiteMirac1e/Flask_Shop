@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Login</h1>
+
+<form action="/register" method="post">
+    <p>
+        <input type="text" name="username" placeholder="Username">
+        <input type="email" name="email" placeholder="Email">
+        <input type="submit" value="Отправить">
+    </p>
+
+{% endblock %}
