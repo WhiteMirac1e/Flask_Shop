@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac652d73-a83e-45d0-ade4-07ced0fba8f6" name="Changes" comment="fourth commit" />
+    <list default="true" id="ac652d73-a83e-45d0-ade4-07ced0fba8f6" name="Changes" comment="five commit">
+      <change afterPath="$PROJECT_DIR$/seminar/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seminar/templates/register2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/seminar/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/seminar/templates/register.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,20 +21,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "WhiteMirac1e"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WhiteMirac1e&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -48,10 +56,12 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.app.executor": "Run",
+    "Python.wsgi.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Ivan/PycharmProjects/DZ_Flask"
+    "last_opened_file_path": "C:/Users/Ivan/PycharmProjects/DZ_Flask/seminar/templates",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,7 +73,7 @@
       <recent name="C:\Users\Ivan\PycharmProjects\DZ_Flask\seminar\static\image" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.wsgi">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DZ_Flask" />
       <option name="ENV_FILES" value="" />
@@ -86,8 +96,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DZ_Flask" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wsgi" />
         <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
@@ -124,12 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716207754126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="five commit">
+      <option name="closed" value="true" />
+      <created>1716207850852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716207850852</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="third commit" />
     <MESSAGE value="fourth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
+    <MESSAGE value="five commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="five commit" />
   </component>
 </project>
